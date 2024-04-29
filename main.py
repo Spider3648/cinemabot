@@ -17,7 +17,7 @@ from aiogram.utils.executor import start_webhook
 import api
 from inline_keyboard import WrappedInlineKeyboardMarkup
 
-API_TOKEN = os.environ["API_TOKEN"]
+API_TOKEN = os.environ["APITOKEN"]
 
 logging.basicConfig(level=logging.DEBUG)
 
